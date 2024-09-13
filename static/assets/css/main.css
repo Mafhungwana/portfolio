@@ -2535,29 +2535,29 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
-				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
-				}
+.wrapper.style1 .icon.major:before {
+    color: #6F4F28; /* Darker Brown */
+}
 
-				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
-				}
+.wrapper.style1-alt .icon.major:before {
+    color: #5C3A21; /* Darker Brown */
+}
 
-				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
-				}
+.wrapper.style2 .icon.major:before {
+    color: #4A5D23; /* Dark Olive Green */
+}
 
-				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
-				}
+.wrapper.style2-alt .icon.major:before {
+    color: #3B4F1A; /* Darker Olive Green */
+}
 
-				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
-				}
+.wrapper.style3 .icon.major:before {
+    color: #4A773C; /* Darker Green */
+}
 
-				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
-				}
+.wrapper.style3-alt .icon.major:before {
+    color: #3A5B2E; /* Darker Forest Green */
+}
 
 /* Image */
 
@@ -3022,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background:  #3B4F1A; /* Darker Olive Green */
 				content: '';
 				display: block;
 				height: 100%;
@@ -3236,31 +3236,31 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color:  #3B4F1A; /* Darker Olive Green */
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color:  #3B4F1A; /* Darker Olive Green */
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #3A5B2E;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #21130d; /* Darker Brown */
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #21130d; /* Darker Brown */
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #3A5B2E;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #3A5B2E;
 		}
 
 		.wrapper.fullscreen {
