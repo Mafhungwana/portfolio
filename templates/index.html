@@ -5,7 +5,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="static/assets/css/main.css" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/maun.css') }}" />
 		<noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
+{#        <noscript><link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}" /></noscript>#}
 	</head>
 	<body class="is-preload">
 
@@ -27,33 +29,33 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Hyperspace</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
+                <section id="intro" class="wrapper style1 fullscreen fade-up">
+                   <div class="inner">
+                      <h1>Welcome to Mafhungwana Meat Wholesalers</h1>
+                      <p>Your trusted supplier of high-quality meats at affordable prices. We cater to local businesses, restaurants, and individuals with the finest selections of fresh meats.</p>
+                      <ul class="actions">
+                         <li><a href="#one" class="button scrolly">Learn more</a></li>
+                      </ul>
+                   </div>
+                </section>
+
 
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="static/images/pic01.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="static/images/logo_2.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
+                                        <h2>Who We Are</h2>
+                                        <p>We are a family-owned business that prides itself on delivering quality meats to our customers. With years of experience in the wholesale meat industry, we ensure that our products meet the highest standards.</p>									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
+
 						</section>
 						<section>
-							<a href="#" class="image"><img src="static/images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="static/images/image_1.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Feugiat consequat</h2>
@@ -65,7 +67,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="static/images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="static/images/image_2.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Ultricies aliquam</h2>
@@ -79,47 +81,29 @@
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
+                    <section id="two" class="wrapper style3 fade-up">
+                       <div class="inner">
+                          <h2>Our Products</h2>
+                          <p>We offer a wide range of meats, including beef, pork, lamb, and poultry, sourced from trusted suppliers. Whether you need bulk orders or specific cuts, we have you covered.</p>
+                          <div class="features">
+                             <section>
+                                <span class="icon solid major fa-drumstick-bite"></span>
+                                <h3>Fresh Beef</h3>
+                                <p>Top-quality beef, available in various cuts to meet your business needs.</p>
+                             </section>
+                             <section>
+                                <span class="icon solid major fa-bacon"></span>
+                                <h3>Pork Products</h3>
+                                <p>From pork chops to sausages, we offer a range of premium pork products.</p>
+                             </section>
+                             <section>
+                                <span class="icon solid major fa-feather"></span>
+                                <h3>Poultry</h3>
+                                <p>Our poultry selection includes fresh chicken and turkey, ideal for all types of meals.</p>
+                             </section>
+                          </div>
+                       </div>
+                    </section>
 
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
@@ -167,11 +151,8 @@
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                                                <li><a href="https://www.facebook.com/MafhungwanaMeatWholesaler/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+
 											</ul>
 										</li>
 									</ul>
